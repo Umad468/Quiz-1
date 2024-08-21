@@ -1,0 +1,5 @@
+lista_numeros = [2, 4, 6, 8, 10]
+lista_numeros_cuadrado = list(map(lambda x: x ** 2, lista_numeros))
+
+print("Numeros: ", lista_numeros)
+print("Numeros al Cuadrado: ", lista_numeros_cuadrado)
